@@ -1,7 +1,7 @@
 
 */
 /* -----------------------------------------------------------
-TABLE OF CONTENTS:
+Spisak i podeljeno lepo sve:
 --------------------------------------------------------------
 1) General
 2) Page Loader
@@ -357,7 +357,7 @@ img { max-width: 100%; }
 }
 /*----- background ------*/
 .grey-bg {
-  background: #f6f6f6;
+  background: #f0f0f0;
   padding: 120px 0;
   display: block;
 }
@@ -811,9 +811,12 @@ p {
   text-align: center;
   padding: 50px;
 }
+#work span:after {
+  left: 14px;
+}
 
 .alt-section {
-  background: #f6f6f6;
+  background: #f0f0f0;
   padding-bottom: 150px; }
 
 .section-work {
@@ -1427,7 +1430,7 @@ label {
   list-style: outside none none;
   float: left;
   overflow: hidden;
-  width: 33.33333%;
+  width: 25%;
   font-size: 13px;
 }
 
@@ -1487,6 +1490,13 @@ label {
 }
 .twitter a:after{
   background-color: #77ccf1;
+}
+.github{
+  background: #969696;
+  /*padding: 20px 0;*/
+}
+.github a:after{
+  background-color: #24292e;
 }
 .gplus{
   background: #d8d8d8;

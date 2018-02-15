@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "Moj portfolio koji ce mi obezbediti posao iz snova",
+  "main": "index.html",
+  "scripts": {    
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wekios/portfolio.git"
+  },
+  "author": "Veljko Blagojevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wekios/portfolio/issues"
+  },
+  "homepage": "https://github.com/Wekios/portfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
