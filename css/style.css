@@ -723,6 +723,7 @@ p {
   height: 100%;
   width: 100%;
   display: block;
+  background-attachment: fixed;
 }
 .wrap-hero-content{
   width: 100%;
@@ -730,19 +731,40 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
+}
+.fore-bird {
+  width: 469px;
+  height: 300px;
+  background-image: url("../images/fore-bird.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 13%;
+  bottom:5%;
+  background-size: contain;
+}
+.back-bird {
+  width: 500px;
+  height: 100px;;
+  background: url("../images/back-bird-smaller.png") no-repeat top left;
+  position: absolute;
+  right:  40%;
+  margin-right: -480px;
+  top: 20%;	
 }
 .hero-content{
   position: absolute;
   text-align: center;
   min-width: 300px;
   left: 50%;
-  top: 50%;
+  top: 40%;
   padding: 65px;
   background: rgba(255, 255, 255, 0.8);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
 }
 
 /*mouse*/
@@ -904,6 +926,10 @@ label {
     -moz-perspective: 300;
     perspective: 300; }
     @media screen and (max-width: 760px) {
+      .fore-bird {
+        height: 200px;
+        width: 313px;
+      }
       .thumb-container .thumb-unit {
         width: 50%;
         padding-top: 26%; } }

@@ -40,7 +40,7 @@
       });
     });
 
-    
+
     //scroll js
     smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
@@ -195,7 +195,21 @@ function  workLoad() {
       });
     }); 
 
-  
+    //parallax effect 
+    $(window).scroll(function(){
+      var wScroll = $(this).scrollTop();
+      $(".hero-content").css({
+        'transform' : 'translate(-50%, '+ wScroll /8 + '%)'
+        });
+    
+      $(".back-bird").css({
+        'transform' : 'translate(-'+ wScroll /80 + '%, '+ wScroll /2 + '%)'
+        });
+    
+      $(".fore-bird").css({
+        'transform' : 'translate('+ wScroll /24 + '% , -'+ wScroll /12 + '%)'
+      });
+    });
   });
   
     
